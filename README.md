@@ -1,12 +1,21 @@
 ![PicPay](https://user-images.githubusercontent.com/1765696/26998603-711fcf30-4d5c-11e7-9281-0d9eb20337ad.png)
 
-# Teste Mobile
+Projeto basicamente foi feito pensando em reutilização de código, organização e código limpo, ou seja, como diferencial temos um componente "Form" no qual os "TitleEditText" são validados automaticamente, ou seja, bastando que o desenvolvedor chame: form.validate(), com isso caso tenha erro será automaticamente feito o scroll e mostrado o aviso no campo, e caso contrario se volta "true" como resposta.
 
-O teste pode ser feito para iOS ou Android e é uma simulação de envio de dinheiro para uma outra pessoa via cartão de crédito.
+Outro diferencial foi a padronização do Adapter para as listas e ViewHolder, onde todas as listas que precisam ser criadas seguem um mesmo contrato, tornando mais pratico o desenvolvimento.
 
-BY: VICTOR MORAES
+Também foi pensando a falta de memória ou quando uma atividade precisa ser encerrada pelo sistema operacional Android, portando irão ver a presença de "InstanceState" e "onSaveInstanceState" no qual internamente o Android Annotations salvas os objetos no Bundle da Activity, e o recupera quando volta para atividade, economizando portando requisições desnecessárias ou perdas de dados quando por exemplo o usuário atende um telefonema e volta para o aplicativo.
 
-EMAIL: VICCTORMORAES@GMAIL.COM
+O foco dessa POC foi focado em arquitetura MVP.
+
+-----Frameworks-----
+
+-Android Annotations
+-Realm
+-Retrofit
+-Gson
+-EventBus
+-Picasso
 
 # Entendendo o Projeto
 

@@ -10,12 +10,12 @@ O foco dessa POC foi focado em arquitetura MVP.
 
 -----Frameworks-----
 
--Android Annotations
--Realm
--Retrofit
--Gson
--EventBus
--Picasso
+- Android Annotations
+- Realm
+- Retrofit
+- Gson
+- EventBus
+- Picasso
 
 # Entendendo o Projeto
 
